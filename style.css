@@ -61,8 +61,46 @@ nav a {
     margin-top: 20px;
     font-size: 32px;
 }
+/* Hide the project images by default */
+.project img {
+    display: none;
+}
 
-/* Style the other sections (about, projects, contact) as needed */
+/* Style the project controls */
+.project-controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-controls button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+/* Style the navigation menu for small screens */
+nav ul.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-align: right;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+nav ul.show li {
+    margin: 15px 0;
+}
+
+
+
 
 /* Responsive design */
 @media (max-width: 768px) {
