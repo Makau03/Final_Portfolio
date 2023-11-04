@@ -106,3 +106,48 @@ nav ul.show li {
 @media (max-width: 768px) {
     /* Add responsive styles for smaller screens */
 }
+/* Responsive design */
+@media (max-width: 768px) {
+    /* Style the navigation menu for smaller screens */
+    nav ul.show {
+        top: 40px;
+    }
+
+    /* Adjust the header padding and font size for smaller screens */
+    header {
+        padding: 10px 0;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    /* Adjust the hero section padding for smaller screens */
+    #hero {
+        padding: 60px 0;
+    }
+
+    #hero h2 {
+        font-size: 28px;
+    }
+
+    /* Style the project images for smaller screens */
+    .project img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Style the project controls for smaller screens */
+    .project-controls {
+        margin-top: 10px;
+    }
+
+    .project-controls button {
+        font-size: 14px;
+    }
+
+    /* Adjust the padding for the about, projects, and contact sections for smaller screens */
+    #about, #projects, #contact {
+        padding: 40px 0;
+    }
+}
