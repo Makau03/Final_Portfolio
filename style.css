@@ -1,0 +1,70 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background image for the whole page */
+body {
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Style the header and navigation */
+header {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+#hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#hero h2 {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+/* Style the other sections (about, projects, contact) as needed */
+
+/* Responsive design */
+@media (max-width: 768px) {
+    /* Add responsive styles for smaller screens */
+}
